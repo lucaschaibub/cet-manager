@@ -1,0 +1,5 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:background="@drawable/card">
+    <TextView android:id="@+id/nome_item" android:layout_width="match_parent" android:layout_height="wrap_content" android:textSize="18sp" android:textStyle="bold" android:textColor="#073E2D" />
+    <TextView android:id="@+id/email_item" android:layout_width="match_parent" android:layout_height="wrap_content" android:textSize="14sp" android:textColor="#52675D" android:layout_marginTop="4dp" />
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Ver detalhes →" android:textSize="12sp" android:textColor="#006C4C" android:layout_marginTop="8dp" />
+</LinearLayout>

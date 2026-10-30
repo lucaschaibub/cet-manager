@@ -6,7 +6,7 @@ Projeto acadêmico de Lucas Chaibub Amaral de Lemos Santos (matrícula 202510629
 - Documentação (Template Padrão, ABNT): [PDF](docs/CETM_LucasChaibub_Entrega7.pdf) · [DOCX editável](docs/CETM_LucasChaibub_Entrega7.docx)
 - APK de depuração: [apk/CET-Manager-debug.apk](apk/CET-Manager-debug.apk)
 
-## Entrega 7 — controle de mensalidades
+## Entrega 7 - controle de mensalidades
 
 | Requisito | Implementação |
 |---|---|
@@ -28,7 +28,7 @@ Os dados continuam **somente em memória** (o banco de dados é a próxima etapa
 5. Confira a situação **Paga** e o histórico; tente repetir a competência atual (é recusada).
 6. Volte à lista e toque em **Mensalidades** para ver o relatório.
 
-## Entrega 6 — cadastro e consulta de clientes
+## Entrega 6 - cadastro e consulta de clientes
 
 Cadastro com nome, e-mail e telefone (com validação e bloqueio de e-mail duplicado), lista, busca por nome/e-mail e detalhes.
 

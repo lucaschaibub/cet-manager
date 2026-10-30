@@ -1,0 +1,15 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:background="#F5F8F6" android:focusableInTouchMode="true" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
+<LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="24dp">
+    <Button android:id="@+id/voltar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Voltar" android:textColor="#073E2D" android:textAllCaps="false" />
+    <TextView style="@style/Title" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Relatório de mensalidades" android:layout_marginTop="12dp" />
+    <TextView android:id="@+id/relatorio_competencia" android:layout_width="match_parent" android:layout_height="wrap_content" android:textSize="16sp" android:textColor="#006C4C" android:layout_marginTop="8dp" />
+    <TextView android:id="@+id/resumo" android:layout_width="match_parent" android:layout_height="wrap_content" android:background="@drawable/card" android:layout_marginTop="16dp" android:textSize="16sp" android:textColor="#073E2D" android:lineSpacingExtra="4dp" />
+    <TextView android:id="@+id/titulo_pendentes" style="@style/Label" android:layout_width="match_parent" android:layout_height="wrap_content" android:textStyle="bold" android:textColor="#A32626" android:layout_marginTop="24dp" />
+    <TextView android:id="@+id/pendentes_vazio" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Nenhum cliente com mensalidade pendente." android:textColor="#52675D" android:layout_marginTop="8dp" />
+    <LinearLayout android:id="@+id/pendentes" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" />
+    <TextView android:id="@+id/titulo_pagos" style="@style/Label" android:layout_width="match_parent" android:layout_height="wrap_content" android:textStyle="bold" android:textColor="#006C4C" android:layout_marginTop="24dp" />
+    <TextView android:id="@+id/pagos_vazio" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Nenhuma mensalidade paga nesta competência." android:textColor="#52675D" android:layout_marginTop="8dp" />
+    <LinearLayout android:id="@+id/pagos" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" />
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:background="@drawable/card" android:layout_marginTop="24dp" android:text="Pendente: cliente sem pagamento registrado para a competência atual nesta sessão. Vencimento e inadimplência serão definidos com o banco de dados." android:textColor="#52675D" />
+</LinearLayout>
+</ScrollView>

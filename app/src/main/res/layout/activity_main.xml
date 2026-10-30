@@ -10,5 +10,8 @@
         <ListView android:id="@+id/lista" android:layout_width="match_parent" android:layout_height="match_parent" android:divider="@android:color/transparent" android:dividerHeight="10dp" />
         <TextView android:id="@+id/vazio" android:layout_width="match_parent" android:layout_height="match_parent" android:gravity="center" android:padding="20dp" android:textSize="17sp" android:textColor="#52675D" />
     </FrameLayout>
-    <Button android:id="@+id/novo" style="@style/PrimaryButton" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="+ Novo cliente" android:layout_marginTop="12dp" />
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:layout_marginTop="12dp">
+        <Button android:id="@+id/relatorio" style="@style/SecondaryButton" android:layout_width="0dp" android:layout_weight="1" android:layout_height="wrap_content" android:text="Mensalidades" android:layout_marginEnd="8dp" />
+        <Button android:id="@+id/novo" style="@style/PrimaryButton" android:layout_width="0dp" android:layout_weight="1" android:layout_height="wrap_content" android:text="+ Novo cliente" />
+    </LinearLayout>
 </LinearLayout>

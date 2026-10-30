@@ -1,0 +1,16 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:background="#F5F8F6" android:focusableInTouchMode="true" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
+<LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="24dp">
+    <Button android:id="@+id/voltar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Voltar" android:textColor="#073E2D" android:textAllCaps="false" />
+    <TextView style="@style/Title" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Registrar pagamento" android:layout_marginTop="12dp" />
+    <TextView android:id="@+id/pagamento_cliente" android:layout_width="match_parent" android:layout_height="wrap_content" android:textSize="18sp" android:textColor="#006C4C" android:layout_marginTop="8dp" />
+    <TextView style="@style/Label" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Competência (mês/ano)" android:labelFor="@id/competencia" />
+    <EditText android:id="@+id/competencia" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="48dp" android:inputType="date" android:hint="Ex.: 10/2026" android:maxLength="7" android:singleLine="true" />
+    <TextView style="@style/Label" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Valor pago (R$)" android:labelFor="@id/valor" />
+    <EditText android:id="@+id/valor" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="48dp" android:inputType="numberDecimal" android:digits="0123456789,." android:hint="Ex.: 150,00" android:maxLength="10" android:singleLine="true" />
+    <TextView style="@style/Label" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Data do pagamento" android:labelFor="@id/data_pagamento" />
+    <EditText android:id="@+id/data_pagamento" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="48dp" android:inputType="date" android:hint="Ex.: 05/10/2026" android:maxLength="10" android:singleLine="true" />
+    <TextView android:id="@+id/erro" android:layout_width="match_parent" android:layout_height="wrap_content" android:textColor="#A32626" android:accessibilityLiveRegion="polite" android:visibility="gone" android:layout_marginTop="12dp" />
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Cada competência aceita um pagamento por cliente. Os pagamentos ficam na memória e serão perdidos se o processo do aplicativo for encerrado." android:textColor="#52675D" android:layout_marginTop="20dp" />
+    <Button android:id="@+id/salvar" style="@style/PrimaryButton" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Salvar pagamento" android:layout_marginTop="20dp" />
+</LinearLayout>
+</ScrollView>

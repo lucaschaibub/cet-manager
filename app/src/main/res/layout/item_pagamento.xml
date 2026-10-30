@@ -1,0 +1,4 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:background="@drawable/card" android:layout_marginTop="10dp">
+    <TextView android:id="@+id/linha_titulo" android:layout_width="match_parent" android:layout_height="wrap_content" android:textSize="16sp" android:textStyle="bold" android:textColor="#073E2D" />
+    <TextView android:id="@+id/linha_subtitulo" android:layout_width="match_parent" android:layout_height="wrap_content" android:textSize="14sp" android:textColor="#52675D" android:layout_marginTop="4dp" />
+</LinearLayout>

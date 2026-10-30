@@ -1,7 +1,7 @@
 # CET Manager
 
 Aplicativo Android em Java e XML para a gestão de clientes e mensalidades da Conto eFootball Trading (CET).
-Projeto acadêmico de Lucas Chaibub Amaral de Lemos Santos (matrícula 202510629).
+Aluno: Lucas Chaibub Amaral de Lemos Santos (matrícula 202510629)
 
 - Documentação (Template Padrão, ABNT): [PDF](docs/CETM_LucasChaibub_Entrega7.pdf) · [DOCX editável](docs/CETM_LucasChaibub_Entrega7.docx)
 - APK de depuração: [apk/CET-Manager-debug.apk](apk/CET-Manager-debug.apk)
@@ -16,8 +16,6 @@ Projeto acadêmico de Lucas Chaibub Amaral de Lemos Santos (matrícula 202510629
 | RF02 — Consultar clientes | A lista mostra a situação da mensalidade do mês |
 
 Regras desta etapa: competência entre 11/2020 e o mês atual; valor maior que zero e menor que R$ 100.000,00; data válida e não futura; um pagamento por competência para cada cliente. Pendente significa "sem pagamento registrado para a competência" — vencimento e inadimplência ainda não estão definidos.
-
-Os dados continuam **somente em memória** (o banco de dados é a próxima etapa da disciplina). Autenticação, edição, situação cadastral e arquivamento ainda não foram implementados.
 
 ### Como demonstrar
 
